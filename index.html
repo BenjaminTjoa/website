@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<!--
+    Benjamin Tjoa
+-->
+<html>
+    <head>
+        <title>Benjamin Tjoa</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <link rel="icon" href="images/ico.ico" type="image/ico">
+        <style>
+            .logo-container {
+                display: flex;
+                align-items: center;
+            }
+            .logo {
+                max-height: 60px;
+                margin-right: 5px;
+            }
+            .logo-container h1 {
+                margin-left: 0px;
+            }
+            .icons img {
+                width: 20px;
+                height: 20px;
+                vertical-align: middle;
+            }
+            .round-image {
+                display: block;
+                margin: 0 auto;
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+            .profile-section {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 20px;
+            }
+            .profile-image-container {
+                position: relative;
+                display: inline-block;
+                margin-bottom: 20px;
+            }
+            .profile-image-container::before, 
+            .profile-image-container::after {
+                content: "—";
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 24px;
+            }
+            .profile-image-container::before {
+                left: -40px;
+            }
+            .profile-image-container::after {
+                right: -40px;
+            }
+            .profile-image {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        </style>
+        <script>
+            document.addEventListener('contextmenu', function(e) {
+                e.preventDefault();
+            });
+        </script>
+    </head>
+    <body class="is-preload">
+
+        <header id="header">
+            <div class="logo-container">
+                <h1>Benjamin Tjoa</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#one">Over mij</a></li>
+                    <li><a href="#two">Wat ik doe</a></li>
+                    <li><a href="#work">Mijn portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="intro" class="main style1 dark fullscreen">
+            <div class="content">
+                <header>
+                    <img src="images/ico.ico" alt="Logo" class="round-image">
+                    <h2>Hallo.</h2>
+                </header>
+                <p>Welkom bij mijn website!</p>
+                <footer>
+                    <a href="#one" class="button style2 down">More</a>
+                </footer>
+            </div>
+        </section>
+
+        <section id="one" class="main style2 right dark fullscreen">
+            <div class="content box style2 profile-section">
+                <div class="profile-image-container">
+                    <img src="images/ico.ico" alt="Benjamin Tjoa" class="profile-image">
+                </div>
+                <header>
+                    <h2>Over mij.</h2>
+                </header>
+                <p>Hoi! Ik ben Benjamin. Ik ben veertien jaar en geboren in Hoofddorp. Ik zit op school in Heemstede, op Hageveld. Op deze website wil ik wat projecten delen. Als je vragen hebt, dan kan je ze aan de onderkant van de pagina stellen.</p>
+            </div>
+            <a href="#two" class="button style2 down anchored">Next</a>
+        </section>
+
+        <section id="two" class="main style2 left dark fullscreen">
+            <div class="content box style2">
+                <header>
+                    <h2>Wat ik doe.</h2>
+                </header>
+                <p>Ik hou van technologie en probeer altijd nieuwe dingen te leren. Af en toe leer en werk ik met HTML en JavaScript, en ik houd me bezig met projecten zoals servers en websites. Ik vind het ook leuk om met drones te vliegen en te experimenteren met nieuwe gadgets. In mijn vrije tijd speel ik Roblox en Minecraft, waar ik geniet van het bouwen en verkennen van verschillende werelden. Op deze website deel ik wat ik doe, van code tot hardwareprojecten. Alle foto's op deze site zijn door mij gemaakt. Hopelijk vind je het interessant en leer je iets nieuws!</p>
+            </div>
+            <a href="#work" class="button style2 down anchored">Next</a>
+        </section>
+
+        <section id="work" class="main style3 primary">
+            <div class="content">
+                <header>
+                    <h2>Mijn Portfolio.</h2>
+                    <p>Hier laat ik een paar projecten/werken van mij zien!
+                        Klik op een foto om wat meer informatie te bekijken.</p>
+                </header>
+
+                <div class="gallery">
+                    <article class="from-left">
+                        <a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="De negende versie van mijn zelfgemaakte Lego SkeeBall Machine!" alt="" /></a>
+                    </article>
+                    <article class="from-right">
+                        <a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Mijn Flipper Zero met WiFi Devboard" alt="" /></a>
+                    </article>
+                    <article class="from-left">
+                        <a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Mijn eigen versie van Tic-Tac-Toe, de DOORS versie!" alt="" /></a>
+                    </article>
+                    <article class="from-right">
+                        <a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" title="Een foto met mijn drone gemaakt in Limburg." alt="" /></a>
+                    </article>
+                    <article class="from-left">
+                        <a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" title="Een foto met mijn drone gemaakt in Limburg." alt="" /></a>
+                    </article>
+                    <article class="from-right">
+                        <a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Mijn Raspberry Pi 5 waar ik vaak servers mee maak." alt="" /></a>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="main style3 secondary">
+            <div class="content">
+                <header>
+                    <h2>Zeg Hallo.</h2>
+                    <p>Vragen of opmerkingen? Ik vind het leuk als je dan hier een berichtje achterlaat!</p>
+                </header>
+                <div class="box">
+                    <form method="POST" action="https://formspree.io/f/xanwyvov">
+                        <div class="fields">
+                            <div class="field half"><input type="text" name="name" placeholder="Naam" required /></div>
+                            <div class="field half"><input type="email" name="email" placeholder="E-mail" required /></div>
+                            <div class="field"><textarea name="message" placeholder="Berichtje" rows="6" required></textarea></div>
+                        </div>
+                        <ul class="actions special">
+                            <li><input type="submit" value="Verstuur" /></li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+
+            <ul class="icons">
+                <li><a href="https://www.discord.com/users/670623743961202693"><img src="assets/icons/discord-r.svg"></span></a></li>
+                <li><a href="https://www.facebook.com/benjamin.tjoa/"><img src="assets/icons/facebook-r.svg"></span></a></li>
+                <li><a href="https://www.github.com/BenjaminTjoa/"><img src="assets/icons/github-r.svg"></span></a></li>
+                <li><a href="https://www.instagram.com/benjamintjoa/"><img src="assets/icons/instagram-r.svg"></span></a></li>
+                <li><a href="https://www.linkedin.com/in/benjamin-tjoa-51baa1316/"><img src="assets/icons/linkedin-r.svg"></span></a></li>
+                <li><a href="https://www.roblox.com/users/1297064450/profile"><img src="assets/icons/roblox-r.svg"></span></a></li>
+                <li><a href="https://t.me/BenjaminTjoa"><img src="assets/icons/telegram-r.svg"></span></a></li>
+                <li><a href="https://www.x.com/Benjamin_Tjoa/"><img src="assets/icons/x-twitter-r.svg"></span></a></li>
+                <li><a href="https://www.youtube.com/@benjamintjoa"><img src="assets/icons/youtube-r.svg"></span></a></li>
+            </ul>
+
+            <ul class="menu">
+                <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" style="margin-top: 20px;">
+                    <a property="dct:title" rel="cc:attributionURL" href="https://benjamintjoa.nl">benjamintjoa.nl</a> by © 
+                    <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://benjamintjoa.nl">Benjamin Tjoa</a> 
+                    is licensed under 
+                    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
+                        CC BY-NC-ND 4.0</a>
+                        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+                        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+                        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="">
+                        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="">
+                </p>
+            </ul>
+            
+        </footer>
+
+        <script>
+            window.onload = function() {
+                if (window.innerWidth <= 768) {
+                    setTimeout(function() {
+                        alert("Hè bah, deze website haat op het moment mobiel apparaten... Bekijk dit alsjeblieft op je computer voor de beste kwaliteit!");
+                    }, 1000);
+                }
+            };
+        </script>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.poptrox.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
